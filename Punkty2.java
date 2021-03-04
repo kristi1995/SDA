@@ -17,7 +17,7 @@ class Punkt3 extends Punkty2 {
     int z;
     Punkt3(){
         this.x = 0;
-        this.y =0;
+        this.y = 0;
         this.z = 0;
     }
     Punkt3(int x, int y, int z){
@@ -27,7 +27,7 @@ class Punkt3 extends Punkty2 {
 
     }
     void volume3(){
-        System.out.println("Punkty z to :"+z);
+        System.out.println("Punkt z to :"+z);
     }
     void sumapunkt(){
         System.out.println("suma punktów to: "+(x+y+z));
